@@ -124,6 +124,21 @@ a:hover {
 }
 
 
+/*Main part of the page*/
+
+main{
+    background-color: #f0f6fc;
+}
+
+.heading {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 25px;
+    padding: 30px;
+    margin: auto;
+}
+
+
 /*footer*/
 
 .container{
