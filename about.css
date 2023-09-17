@@ -6,15 +6,16 @@ main{
 
 .heading {
     text-align: center;
-    background-color: #acc7fa;
+    background-color: #0051e7;
     font-size: 25px;
     padding: 30px;
     margin: auto;
+    color: #ffffff;
 }
 
 section{
     padding: 40px;
-
+    margin: auto 40px;
 }
 
 
@@ -23,5 +24,16 @@ section{
 }
 
 .sec1 .founder h2{
-    font-size: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+@media(max-width: 770px) {
+    .sec1 {
+        display: block;
+    }
+}
+
+p {
+    margin-bottom: 20px;
 }
