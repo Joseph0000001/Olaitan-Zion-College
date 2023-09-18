@@ -18,11 +18,13 @@ section{
     margin: auto 55px;
 }
 
+.founder {
+    align-self: center;
+}
 
 .sec1{
     display: flex;
     margin-bottom: 60px;
-    flex-wrap: wrap;
 }
 
 .proprietress-image, .founder{
@@ -36,10 +38,13 @@ section{
 
 @media(max-width: 770px) {
     .sec1 {
-        flex-direction: row;
+        flex-direction: column;
     }
-    .proprietress-image, .founder, .card-details{
+    .proprietress-image, .founder{
         width: 100%;
+        text-align: center;
+    }
+    .card-details p{
         text-align: center;
     }
 }
