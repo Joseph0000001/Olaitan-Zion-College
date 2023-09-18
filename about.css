@@ -1,7 +1,7 @@
 /*Main part of the page*/
 
 main{
-    background-color: #f0f6fc;
+    background-color: #ffffff;
 }
 
 .heading {
@@ -15,12 +15,18 @@ main{
 
 section{
     padding: 40px;
-    margin: auto 40px;
+    margin: auto 55px;
 }
 
 
 .sec1{
     display: flex;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.proprietress-image, .founder{
+    width: 50%;
 }
 
 .sec1 .founder h2{
@@ -30,10 +36,16 @@ section{
 
 @media(max-width: 770px) {
     .sec1 {
-        display: block;
+        flex-direction: row;
+    }
+    .proprietress-image, .founder, .card-details{
+        width: 100%;
+        text-align: center;
     }
 }
 
 p {
     margin-bottom: 20px;
+    text-align: justify;
+    font-size: 15px;
 }

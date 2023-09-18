@@ -12,6 +12,9 @@ body {
 nav{
     background-color: #e9e9e9;
     padding: 5px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 nav ul{
@@ -164,7 +167,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #002d70;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
