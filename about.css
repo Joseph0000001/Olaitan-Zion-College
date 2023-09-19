@@ -18,24 +18,22 @@ section{
     margin: auto 55px;
 }
 
-.founder {
-    align-self: center;
-}
-
 .sec1{
     display: flex;
     margin-bottom: 60px;
 }
 
-.proprietress-card, .founder{
-    width: 50%;
-}
 
 .proprietress-card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 50%;
-    margin-right: 20px;
+    margin-right: 70px;
+}
+
+.founder{
+    align-self: flex-end;
+    width: 60%;
 }
 
 .proprietress-card:hover {
@@ -46,7 +44,7 @@ section{
     padding: 15px;
 }
 
-.sec1 .founder h2{
+.founder h2{
     font-size: 30px;
     letter-spacing: 2px;
 }
