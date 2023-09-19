@@ -16,3 +16,26 @@ main{
 .heading h1{
     font-weight: normal;
 }
+
+.container {
+    margin: 50px;
+}
+
+.links {
+    display: flex;
+    margin: 40px;
+    text-align: center;
+}
+
+.icons {
+    margin: auto;
+}
+
+.icons i{
+    border-radius: 50%;
+    background-color: #0051e7;
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
