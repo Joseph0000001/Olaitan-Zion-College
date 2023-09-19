@@ -7,10 +7,14 @@ main{
 .heading {
     text-align: center;
     background-color: #0051e7;
-    font-size: 25px;
+    font-size: 22px;
     padding: 30px;
     margin: auto;
     color: #ffffff;
+}
+
+.heading h1{
+    font-weight: normal;
 }
 
 section{
