@@ -1,5 +1,9 @@
 /*Main part of the page*/
 
+* {
+    box-sizing: border-box;
+}
+
 main{
     background-color: #ffffff;
 }
@@ -54,13 +58,19 @@ main{
     color: black;
 }
 
+.icons p{
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 @media(max-width: 770px) {
     .links{
         flex-direction: column;
     }
     .icons{
-        width: 70%;
+        width: 100%;
         margin: 10px;
         align-self: center;
     }
