@@ -29,6 +29,7 @@ main{
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .icons {
@@ -74,4 +75,20 @@ main{
         margin: 10px;
         align-self: center;
     }
+}
+
+.form {
+    padding: 0px;
+    width: 60%;
+    margin: 40px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-top: 20px;
+    padding: 20px;
 }
