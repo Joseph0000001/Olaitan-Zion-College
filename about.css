@@ -64,6 +64,10 @@ section{
     .card-details p{
         text-align: center;
     }
+    section{
+        padding: 2px;
+        margin: auto 2px;
+    }
 }
 
 p {
