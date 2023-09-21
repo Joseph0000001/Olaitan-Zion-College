@@ -1,2 +1,7 @@
+.container {
+    display: grid;
+}
 
-
+img {
+    height: 100px;
+}
