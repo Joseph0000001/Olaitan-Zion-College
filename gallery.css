@@ -1,7 +1,25 @@
-.container {
-    display: grid;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-    height: 100px;
+.heading {
+    text-align: center;
+    background-color: #0051e7;
+    font-size: 22px;
+    padding: 30px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d8d6d6;
+  }
+
+
+.image {
+    height: 150px;
 }
