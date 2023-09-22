@@ -15,11 +15,15 @@
 
 .flex-container {
     display: flex;
+    max-width: 420px;
+    margin: 30px auto;
     flex-wrap: wrap;
-    background-color: #d8d6d6;
-  }
+}
 
 
 .image {
     height: 150px;
+    margin: 3px;
+    border: 2px solid white;
+
 }
