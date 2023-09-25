@@ -22,13 +22,21 @@ nav ul{
     list-style-type: none;
 }
 
-nav a {
+.menu a {
     color: black;
+    position: relative;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.menu a:hover::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: #002d70;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .menu li {
@@ -60,7 +68,7 @@ a:hover {
 }
 
 .nav-item.active{
-    display: block;
+    font-size: 20px;
 }
 
 #toggle{
