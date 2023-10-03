@@ -1,5 +1,15 @@
-.carouselimg {
+.heroImage{
+    background: url(./images/sliders-images/slider2.jpg) no-repeat center;
+    background-size: cover;
     height: 100vh;
-    width: 100%;
-    display: none;
+    position: relative;
+}
+
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
