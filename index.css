@@ -13,3 +13,42 @@
     transform: translate(-50%, -50%);
     color: #ffffff;
 }
+
+.heroImage button {
+    padding: 20px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+} 
+
+.flexing {
+    border-radius: 10px;
+    display: flex;
+    margin: 80px;
+    background-color: #dfdfdf;
+}
+
+.aboutOnHome {
+    border-radius: 10px;
+    text-align: center;
+    margin: 80px;
+    background-color: #dfdfdf;
+}
+
+.aboutOnHome .ourMission {
+    margin: 20px;
+    background-color: #f5f0f0;
+    padding: 30px;
+    height: auto;
+}
+
+.aboutOnHome .aboutImage {
+    align-self: center;
+}
+
+.aboutOnHome img {
+    height: auto;
+    width: 100%;
+    padding: 15px;
+}
