@@ -2,6 +2,7 @@
     background: url(../images/sliders-images/slider2.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     position: relative;
 }
 
@@ -22,33 +23,42 @@
     font-size: 20px;
 } 
 
-.flexing {
-    border-radius: 10px;
-    display: flex;
-    margin: 80px;
-    background-color: #dfdfdf;
-}
-
-.aboutOnHome {
-    border-radius: 10px;
+.aboutUs {
     text-align: center;
-    margin: 80px;
-    background-color: #dfdfdf;
+    margin: 40px 0;
+    padding: 100px 250px;
 }
 
-.aboutOnHome .ourMission {
-    margin: 20px;
-    background-color: #f5f0f0;
+.aboutUs h1 {
     padding: 30px;
-    height: auto;
+    font-size: 50px;
 }
 
-.aboutOnHome .aboutImage {
-    align-self: center;
+.aboutUs h1::after {
+    content: "";
+    height: 4px;
+    width: 30%;
+    background-color: #222;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
-.aboutOnHome img {
-    height: auto;
-    width: 100%;
-    padding: 15px;
+.aboutUs b {
+    font-size: 25px;
+}
+
+.aboutUs button {
+    padding: 15px 30px;
+    margin: 30px 0;
+    font-size: 15px;
+    background-color: bisque;
+    border: solid 4px rgb(231, 230, 228);
+    border-radius: 10px;
+}
+
+.aboutUs button a {
+    text-decoration: none;
+    color: black;
 }
