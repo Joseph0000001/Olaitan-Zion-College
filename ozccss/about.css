@@ -61,12 +61,21 @@ p {
 }
 
 .school-anthem{
+    background: url(../images/gallery-images/gradsMusic.jpg) no-repeat center;
+    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    align-content: center;
-    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
     font-weight: 600;
+}
+
+.trans{
     margin: 0;
+    background-color: #ffffff;
+    opacity: 0.8;
 }
 
 @media(max-width: 770px) {
