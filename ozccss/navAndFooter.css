@@ -56,6 +56,17 @@ nav ul{
     align-items: center;
 }
 
+.menu a:hover::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 2px;
+    box-sizing: border-box;
+    width: auto;
+}
+
 .toggle{
     order: 1;
 }
@@ -67,8 +78,13 @@ nav ul{
     display: none;
 }
 
+.hidden {
+    display: block;
+}
+
 .nav-item.active{
     font-size: 20px;
+    display: block;
 }
 
 #toggle{
@@ -100,20 +116,8 @@ nav ul{
     top: -5px;
 }
 
-/*Tablet menu*/
-@media all and (min-width: 468px){
-    .menu {
-        justify-content: center;
-    }
-    .logo{
-        flex: 1;
-    }
-    #toggle{
-        order: 1;
-    }
-}
 
-@media all and (min-width: 791px){
+@media all and (min-width: 803px){
     .nav-item{
         display: block;
         width: auto;
