@@ -62,3 +62,17 @@
     text-decoration: none;
     color: black;
 }
+
+/* mobile view*/
+
+@media all and (max-width: 803px){
+    .aboutUs{
+        padding: 100px 100px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .aboutUs{
+        padding: 100px 80px;
+    }
+}
