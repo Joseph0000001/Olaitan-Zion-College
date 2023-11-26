@@ -28,17 +28,6 @@ nav ul{
     text-decoration: none;
 }
 
-.menu a:hover::before {
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    background-color: #002d70;
-    height: 2px;
-    box-sizing: border-box;
-    width: 100%;
-}
-
 .menu li {
     font-size: 16px;
     padding: 15px 5px;
@@ -56,15 +45,8 @@ nav ul{
     align-items: center;
 }
 
-.menu a:hover::before {
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    background-color: #ffffff;
-    height: 2px;
-    box-sizing: border-box;
-    width: auto;
+.menu a:hover:not(.menu .active a){
+    font-size: small;
 }
 
 .toggle{
