@@ -1,5 +1,5 @@
 .heroImage{
-    background: url(../images/sliders-images/slider2.jpg) no-repeat center;
+    background: url(../images/sliders-images/slider1.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -81,23 +81,27 @@
     color: black;
 }
 
-.grid{
+#grid{
     background-color: aqua;
 }
 
-#flex1, #flex2 {
+.flex1 {
     display: flex;
 }
 
-#flex1 img, #flex2 img{
+.flex1 img{
     width: 50%;
 }
 
-#flex1 p, #flex2 p{
+.flex1 p {
     width: 50%;
     padding: 8%;
     font-size: 40px;
     font-family: fantasy;
+}
+
+#mobile {
+    display: block;
 }
 /* mobile view*/
 
@@ -111,5 +115,11 @@
 @media all and (max-width: 500px){
     .aboutUs{
         padding: 100px 80px;
+    }
+    #grid {
+        display: none;
+    }
+    #mobile {
+        display: block;
     }
 }
