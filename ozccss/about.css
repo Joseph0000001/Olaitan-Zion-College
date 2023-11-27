@@ -60,22 +60,43 @@ p {
     font-size: 15px;
 }
 
-.school-anthem{
-    background: url(../images/gallery-images/gradsMusic.jpg) no-repeat center;
-    background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+#containing {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
 }
 
-.trans{
-    margin: 0;
-    background-color: #ffffff;
-    opacity: 0.8;
+#music-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/gallery-images/music.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#content {
+    position: relative;
+    color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+#content p{
+    padding-top: 20px;
+    text-align: center;
+    font-family: montserrat;
 }
 
 @media(max-width: 770px) {
