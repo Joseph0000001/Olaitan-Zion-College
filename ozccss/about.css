@@ -114,4 +114,7 @@ p {
         padding: 10px;
         margin: auto 2px;
     }
+    section p:not(.heads) {
+        font-size: 12px;
+    }
 }
